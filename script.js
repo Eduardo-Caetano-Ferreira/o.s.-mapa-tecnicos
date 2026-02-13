@@ -43,4 +43,5 @@ function consultar() {
         document.getElementById('listaC').innerText = "Área Carro: " + c.bairros.join(", ");
         boxC.style.display = 'block';
     } else { boxC.style.display = 'none'; }
+
 }
