@@ -1,20 +1,19 @@
 // Dados separados pois as coberturas de carro são maiores
 const rotasMoto = [
-    { nome: "Alexsandro", bairros: ["peruibe"] },
-    { nome: "Gabriel Batista", bairros: ["gaivota", "santa julia", "tupy", "praia dos sonhos", "belas artes", "cibratel"] },
-    { nome: "Lucas Rodrigues", bairros: ["umuarama", "sabauna", "centro", "baixio", "ivoty"] },
-    { nome: "Renan", bairros: ["oasis", "savoy", "nova itanhaem", "tropical", "suarao", "loty"] },
-    { nome: "Clayton", bairros: ["florida mirim", "itaguai", "agenor de campos", "jussara"] },
-    { nome: "Fabio", bairros: ["jardim praia grande", "oceanopolis", "seabra", "vila atlantica", "centro", "princesa", "real", "cidade das criancas"] },
-    { nome: "Allan", bairros: ["praia grande"] },
-    { nome: "Augusto", bairros: ["itanhaem", "mongagua"] }
+    { nome: "Alexsandro", bairros: ["peruibe", "gaivota", "luiza mar", "jamaica", "jardim regina", "bopiranga", "santa julia"] },
+    { nome: "Gabriel Batista", bairros: ["sao fernando", "tupy", "cibratel 2", "coronel", "umuarama", "sabauna", "guapiranga", "corumba", "belas artes", "praia dos sonhos"] },
+    { nome: "Lucas Rodrigues", bairros: ["centro", "cidade anchieta", "satelite", "vila sao paulo", "laranjeiras", "oasis", "savoy", "guapura", "tropical", "nova itanhaem", "magalhaes", "sion", "suarao"] },
+    { nome: "Renan", bairros: ["campos eliseos", "verde mar", "santa terezinha", "loty", "florida mirim", "itaguai", "agenor de campos", "regina maria", "santana"] },
+    { nome: "Clayton", bairros: ["jardim leonor", "vila seabra", "nossa senhora de fatima", "vila atlantica", "umuarama", "vera cruz", "mongagua", "pedreira", "centro", "vila sao paulo", "vila nova"] },
+    { nome: "Augusto", bairros: ["itanhaem", "mongagua"] },
+    { nome: "Allan", bairros: ["praia grande"] }
 ];
 
 const rotasCarro = [
-    { nome: "Motorista Peruibe", bairros: ["peruibe"] }, // Nome não especificado na imagem, apenas a cidade
-    { nome: "Mauro", bairros: ["gaivota", "santa julia", "tupy", "cibratel", "praia dos sonhos", "umuarama", "sabauna", "centro", "baixio", "ivoty", "oasis", "savoy"] },
-    { nome: "Edmilson", bairros: ["nova itanhaem", "tropical", "suarao", "campos eliseos", "verde mar", "santa teresinha", "loty", "itaoca"] },
-    { nome: "Felipe Arouche", bairros: ["jardim praia grande", "centro", "praia grande"] }
+    { nome: "Douglas Daniel", bairros: ["peruibe", "gaivota", "luiza mar", "jamaica", "jardim regina", "bopiranga", "santa julia", "sao fernando", "tupy", "cibratel 2"] },
+    { nome: "Mauro", bairros: ["coronel", "umuarama", "sabauna", "guapiranga", "corumba", "belas artes", "praia dos sonhos", "cidade anchieta", "centro", "satelite", "vila sao paulo", "laranjeiras", "oasis", "savoy", "guapura"] },
+    { nome: "Marcos", bairros: ["tropical", "nova itanhaem", "magalhaes", "sion", "suarao", "campos eliseos", "verde mar", "santa terezinha", "loty", "florida mirim", "itaguai", "agenor de campos", "regina maria", "santana", "jardim leonor", "jussara", "itaoca"] },
+    { nome: "Edmilson", bairros: ["jardim praia grande", "oceanopolis", "vila seabra", "nossa senhora de fatima", "vila atlantica", "umuarama", "vera cruz", "mongagua", "pedreira", "centro", "vila sao paulo", "vila nova", "praia grande"] }
 ];
 
 function consultar() {
@@ -45,3 +44,4 @@ function consultar() {
     } else { boxC.style.display = 'none'; }
 
 }
+
