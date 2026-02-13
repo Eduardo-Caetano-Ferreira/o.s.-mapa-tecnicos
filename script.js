@@ -10,7 +10,8 @@ const rotasMoto = [
 ];
 
 const rotasCarro = [
-    { nome: "Douglas Daniel", bairros: ["peruibe", "gaivota", "luiza mar", "jamaica", "jardim regina", "bopiranga", "santa julia", "sao fernando", "tupy", "cibratel 2"] },
+    { nome: "Falar com a torre", bairros: ["peruibe"] },
+    { nome: "Douglas Daniel", bairros: ["gaivota", "luiza mar", "jamaica", "jardim regina", "bopiranga", "santa julia", "sao fernando", "tupy", "cibratel"] },
     { nome: "Mauro", bairros: ["coronel", "umuarama", "sabauna", "guapiranga", "corumba", "belas artes", "praia dos sonhos", "cidade anchieta", "centro", "satelite", "vila sao paulo", "laranjeiras", "oasis", "savoy", "guapura"] },
     { nome: "Marcos", bairros: ["tropical", "nova itanhaem", "magalhaes", "sion", "suarao", "campos eliseos", "verde mar", "santa terezinha", "loty", "florida mirim", "itaguai", "agenor de campos", "regina maria", "santana", "jardim leonor", "jussara", "itaoca"] },
     { nome: "Edmilson", bairros: ["jardim praia grande", "oceanopolis", "vila seabra", "nossa senhora de fatima", "vila atlantica", "umuarama", "vera cruz", "mongagua", "pedreira", "centro", "vila sao paulo", "vila nova", "praia grande"] }
@@ -44,4 +45,5 @@ function consultar() {
     } else { boxC.style.display = 'none'; }
 
 }
+
 
